@@ -1,10 +1,10 @@
 <?php
 
 $conn = mysqli_connect(
-    "sql208.infinityfree.com",
-    "if0_42149643",
-    "Mzansi2026",
-    "if0_42149643_mzansimarket"
+    "my_database_host",
+    "my_database_username",
+    "my_database_password",
+    "my_database_name"
 );if(!$conn){
     die("Database connection failed");
 }
